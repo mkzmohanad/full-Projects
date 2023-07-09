@@ -125,7 +125,7 @@ let callFunction = true;
 window.addEventListener("scroll" ,function(){
     if (this.scrollY >= 2751) {
         if (callFunction) {
-            console.log(this.scrollY) 
+            // console.log(this.scrollY) 
             allCounters.forEach(function(counter){
                 increaseCounter(counter)
             })
@@ -223,7 +223,7 @@ function clickHidden(first,second) {
 }
 
 function checkMenuCounter () {
-    console.log(menuCounter)
+    // console.log(menuCounter)
     if(menuCounter === 0) {
         prev.classList.add("disabled");
     }
